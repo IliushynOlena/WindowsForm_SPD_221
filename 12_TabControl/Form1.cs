@@ -59,7 +59,11 @@ namespace _12_TabControl
             clearbutton.TabIndex = 3;
             clearbutton.Text = "Clear";
             clearbutton.UseVisualStyleBackColor = true;
-            clearbutton.Click += (s, args) => { nametextBox.Clear(); };
+            clearbutton.Click += (s, args) =>
+            {
+                nametextBox.Clear();
+            
+            };
 
             page.Controls.Add(mainlabel);
             page.Controls.Add(namelabel);
